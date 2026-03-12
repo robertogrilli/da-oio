@@ -17,18 +17,18 @@ collections:
         file: "data/hero.json"
         format: "json"
         fields:
-          - { name: "tagline_it", label: "Tagline (Italiano)", widget: "text", default: "Dove la cucina romana è ancora quella di una volta. Quattro generazioni, un solo sapore: casa." }
-          - { name: "tagline_en", label: "Tagline (English)", widget: "text", default: "Where Roman cuisine is still the way it used to be. Four generations, one taste: home." }
-          - { name: "since_it", label: "Sottotitolo (Italiano)", widget: "string", default: "Testaccio, Roma — Dal 1994" }
-          - { name: "since_en", label: "Sottotitolo (English)", widget: "string", default: "Testaccio, Rome — Since 1994" }
+          - { name: "tagline_it", label: "Tagline (Italiano)", widget: "text" }
+          - { name: "tagline_en", label: "Tagline (English)", widget: "text" }
+          - { name: "since_it", label: "Sottotitolo (Italiano)", widget: "string" }
+          - { name: "since_en", label: "Sottotitolo (English)", widget: "string" }
 
       - name: "storia"
         label: "La Storia / Our Story"
         file: "data/storia.json"
         format: "json"
         fields:
-          - { name: "title_it", label: "Titolo (Italiano)", widget: "string", default: "Dal Mattatoio alla Tavola" }
-          - { name: "title_en", label: "Title (English)", widget: "string", default: "From the Slaughterhouse to the Table" }
+          - { name: "title_it", label: "Titolo (Italiano)", widget: "string" }
+          - { name: "title_en", label: "Title (English)", widget: "string" }
           - { name: "body_it", label: "Testo (Italiano)", widget: "text" }
           - { name: "body_en", label: "Text (English)", widget: "text" }
           - { name: "quote_it", label: "Citazione (Italiano)", widget: "string" }
@@ -39,10 +39,10 @@ collections:
         file: "data/info.json"
         format: "json"
         fields:
-          - { name: "phone", label: "Telefono", widget: "string", default: "+39 06 578 2680" }
-          - { name: "address", label: "Indirizzo", widget: "string", default: "Via Galvani 41/43/45, 00153 Roma (Testaccio)" }
-          - { name: "instagram_url", label: "Instagram URL", widget: "string", default: "https://www.instagram.com/daoio_trattoria/" }
-          - { name: "facebook_url", label: "Facebook URL", widget: "string", default: "https://www.facebook.com/daoioatestaccio/" }
+          - { name: "phone", label: "Telefono", widget: "string" }
+          - { name: "address", label: "Indirizzo", widget: "string" }
+          - { name: "instagram_url", label: "Instagram URL", widget: "string" }
+          - { name: "facebook_url", label: "Facebook URL", widget: "string" }
 
       - name: "orari"
         label: "Orari / Hours"
@@ -71,6 +71,15 @@ collections:
               - { name: "text_it", label: "Testo (IT)", widget: "text" }
               - { name: "text_en", label: "Text (EN)", widget: "text" }
 
+      - name: "immagini"
+        label: "Immagini / Images"
+        file: "data/images.json"
+        format: "json"
+        fields:
+          - { name: "logo_hero", label: "Logo Hero (sfondo scuro)", widget: "image" }
+          - { name: "logo_navbar", label: "Logo Navbar", widget: "image" }
+          - { name: "logo_storia", label: "Immagine sezione Storia", widget: "image" }
+
   - name: "menu"
     label: "Menù"
     files:
@@ -93,15 +102,4 @@ collections:
                   - { name: "name", label: "Nome Piatto", widget: "string" }
                   - { name: "desc_it", label: "Descrizione (IT)", widget: "string", required: false }
                   - { name: "desc_en", label: "Description (EN)", widget: "string", required: false }
-                  - { name: "price", label: "Prezzo (es: € 12)", widget: "string", required: false, default: "€ —" }
-                  - name: "immagini"
-    label: "Immagini / Images"
-    files:
-      - name: "loghi"
-        label: "Loghi e Foto / Logos & Photos"
-        file: "data/images.json"
-        format: "json"
-        fields:
-          - { name: "logo_hero", label: "Logo Hero (sfondo scuro)", widget: "image" }
-          - { name: "logo_navbar", label: "Logo Navbar", widget: "image" }
-          - { name: "logo_storia", label: "Immagine sezione Storia", widget: "image" }
+                  - { name: "price", label: "Prezzo (es: € 12)", widget: "string", required: false }
