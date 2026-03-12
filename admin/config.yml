@@ -1,0 +1,105 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "it"
+
+collections:
+  - name: "settings"
+    label: "Impostazioni Sito / Site Settings"
+    files:
+      - name: "general"
+        label: "Informazioni Generali / General Info"
+        file: "data/general.yml"
+        fields:
+          - { name: "restaurant_name", label: "Nome Ristorante", widget: "string", default: "Da Oio a Casa Mia" }
+          - { name: "phone", label: "Telefono", widget: "string" }
+          - { name: "email", label: "Email", widget: "string", required: false }
+          - { name: "address", label: "Indirizzo", widget: "string" }
+          - { name: "instagram_url", label: "Instagram URL", widget: "string", required: false }
+          - { name: "facebook_url", label: "Facebook URL", widget: "string", required: false }
+          - { name: "tripadvisor_url", label: "TripAdvisor URL", widget: "string", required: false }
+          - { name: "google_maps_embed", label: "Google Maps Embed URL", widget: "string" }
+          - { name: "ga_measurement_id", label: "Google Analytics Measurement ID", widget: "string", required: false }
+
+      - name: "hero"
+        label: "Hero Section"
+        file: "data/hero.yml"
+        fields:
+          - { name: "logo", label: "Logo Hero", widget: "image" }
+          - { name: "tagline_it", label: "Tagline (Italiano)", widget: "text" }
+          - { name: "tagline_en", label: "Tagline (English)", widget: "text" }
+          - { name: "since_it", label: "Sottotitolo (Italiano)", widget: "string" }
+          - { name: "since_en", label: "Sottotitolo (English)", widget: "string" }
+
+      - name: "story"
+        label: "La Storia / Our Story"
+        file: "data/story.yml"
+        fields:
+          - { name: "title_it", label: "Titolo (Italiano)", widget: "string" }
+          - { name: "title_en", label: "Title (English)", widget: "string" }
+          - { name: "body_it", label: "Testo (Italiano)", widget: "markdown" }
+          - { name: "body_en", label: "Text (English)", widget: "markdown" }
+          - { name: "quote_it", label: "Citazione (Italiano)", widget: "string", required: false }
+          - { name: "quote_en", label: "Quote (English)", widget: "string", required: false }
+          - { name: "image", label: "Immagine", widget: "image", required: false }
+
+      - name: "hours"
+        label: "Orari / Hours"
+        file: "data/hours.yml"
+        fields:
+          - name: "schedule"
+            label: "Orari Settimanali"
+            widget: "list"
+            fields:
+              - { name: "day_it", label: "Giorno (Italiano)", widget: "string" }
+              - { name: "day_en", label: "Day (English)", widget: "string" }
+              - { name: "lunch", label: "Pranzo / Lunch", widget: "string" }
+              - { name: "dinner", label: "Cena / Dinner", widget: "string" }
+
+  - name: "menu_categories"
+    label: "Menù"
+    folder: "data/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "category_it", label: "Categoria (Italiano)", widget: "string" }
+      - { name: "category_en", label: "Category (English)", widget: "string" }
+      - { name: "order", label: "Ordine (1=primo)", widget: "number", value_type: "int" }
+      - name: "items"
+        label: "Piatti / Dishes"
+        widget: "list"
+        fields:
+          - { name: "name_it", label: "Nome (Italiano)", widget: "string" }
+          - { name: "name_en", label: "Name (English)", widget: "string" }
+          - { name: "description_it", label: "Descrizione (Italiano)", widget: "string", required: false }
+          - { name: "description_en", label: "Description (English)", widget: "string", required: false }
+          - { name: "price", label: "Prezzo", widget: "string", required: false }
+
+  - name: "reviews"
+    label: "Recensioni / Reviews"
+    folder: "data/reviews"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "author", label: "Nome Autore", widget: "string" }
+      - { name: "stars", label: "Stelle (1-5)", widget: "number", value_type: "int", min: 1, max: 5 }
+      - { name: "text_it", label: "Testo (Italiano)", widget: "text" }
+      - { name: "text_en", label: "Text (English)", widget: "text" }
+      - { name: "order", label: "Ordine (1=primo)", widget: "number", value_type: "int" }
+
+  - name: "images"
+    label: "Foto / Photos"
+    files:
+      - name: "logos"
+        label: "Loghi / Logos"
+        file: "data/images.yml"
+        fields:
+          - { name: "logo_navbar_white", label: "Logo Navbar (sfondo scuro)", widget: "image" }
+          - { name: "logo_navbar_dark", label: "Logo Navbar (sfondo chiaro)", widget: "image" }
+          - { name: "logo_hero", label: "Logo Hero", widget: "image" }
+          - { name: "og_image", label: "Immagine Social (1200x630)", widget: "image" }
+          - { name: "favicon", label: "Favicon", widget: "image" }
