@@ -94,3 +94,14 @@ collections:
                   - { name: "desc_it", label: "Descrizione (IT)", widget: "string", required: false }
                   - { name: "desc_en", label: "Description (EN)", widget: "string", required: false }
                   - { name: "price", label: "Prezzo (es: € 12)", widget: "string", required: false, default: "€ —" }
+                  - name: "immagini"
+    label: "Immagini / Images"
+    files:
+      - name: "loghi"
+        label: "Loghi e Foto / Logos & Photos"
+        file: "data/images.json"
+        format: "json"
+        fields:
+          - { name: "logo_hero", label: "Logo Hero (sfondo scuro)", widget: "image" }
+          - { name: "logo_navbar", label: "Logo Navbar", widget: "image" }
+          - { name: "logo_storia", label: "Immagine sezione Storia", widget: "image" }
