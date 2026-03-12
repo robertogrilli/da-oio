@@ -1,0 +1,40 @@
+{
+  "reviews": [
+    {
+      "author": "Laia G.",
+      "stars": 5,
+      "text_it": "Un must a Testaccio dove lo staff ti fa sentire come a casa. Il cibo è eccellente. La lingua è una vera prelibatezza.",
+      "text_en": "A must in Testaccio where the staff make you feel like at home. The food is excellent. The tongue is a true delicacy."
+    },
+    {
+      "author": "Ana Rafaela E.",
+      "stars": 5,
+      "text_it": "La carbonara è una delle migliori che abbia mai mangiato! Abbiamo provato anche l'amatriciana e l'abbacchio — tutto incredibile!",
+      "text_en": "The carbonara was one of the best I've ever had! We also tried the amatriciana and the lamb — everything was incredible!"
+    },
+    {
+      "author": "Manny B.",
+      "stars": 5,
+      "text_it": "Il cibo era fantastico, dal primo all'ultimo boccone. Vino e servizio eccezionali! Questo ristorante a gestione familiare ha accolto la mia famiglia a braccia aperte.",
+      "text_en": "The food was fantastic, all the way through. Superb wine and service! This family-owned restaurant took my family right in and made us feel at home."
+    },
+    {
+      "author": "Ken T.",
+      "stars": 5,
+      "text_it": "Piatti romani classici con servizio eccellente e una selezione di vini superba. Provate i carciofi alla romana e l'abbacchio al forno. Un punto di riferimento per i locali.",
+      "text_en": "Classic Roman dishes with excellent service, superb wine selection. Try the artichokes and the roast lamb. A favourite of locals in Testaccio."
+    },
+    {
+      "author": "Pawel K.",
+      "stars": 5,
+      "text_it": "Cibo eccellente, servizio fantastico, atmosfera unica. Una vera esperienza romana.",
+      "text_en": "Excellent food, fantastic service, unique atmosphere. A true Roman experience."
+    },
+    {
+      "author": "Aspendos A.",
+      "stars": 5,
+      "text_it": "5 stelle non bastano. Questo posto ne merita 6 o 7.",
+      "text_en": "5 stars are not sufficient. This place deserves 6 or 7."
+    }
+  ]
+}

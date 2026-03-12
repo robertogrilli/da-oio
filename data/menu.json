@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "id": "antipasti",
+      "name_it": "Antipasti",
+      "name_en": "Starters",
+      "items": [
+        { "name": "Antipasto alla Romana", "desc_it": "Selezione di salumi, formaggi e verdure romane", "desc_en": "Selection of cured meats, cheeses and Roman vegetables", "price": "€ —" },
+        { "name": "Antipasto all'Italiana", "desc_it": "Prosciutto e mozzarella di bufala", "desc_en": "Prosciutto and buffalo mozzarella", "price": "€ —" },
+        { "name": "Lingua in Salmì", "desc_it": "", "desc_en": "Braised Tongue", "price": "€ —" },
+        { "name": "Nervetti e Fagioli", "desc_it": "", "desc_en": "Veal Tendons and Beans", "price": "€ —" },
+        { "name": "Frittate Miste", "desc_it": "", "desc_en": "Mixed Frittatas", "price": "€ —" },
+        { "name": "Carciofo alla Romana", "desc_it": "Carciofo romano brasato con mentuccia", "desc_en": "Braised Roman artichoke with wild mint", "price": "€ —" },
+        { "name": "Carciofo alla Giudia", "desc_it": "Carciofo fritto intero, croccante e dorato", "desc_en": "Whole fried artichoke, golden and crispy", "price": "€ —" },
+        { "name": "Puntarelle", "desc_it": "Con olio, aglio e acciughe", "desc_en": "With olive oil, garlic and anchovies", "price": "€ —" }
+      ]
+    },
+    {
+      "id": "primi",
+      "name_it": "Primi Piatti",
+      "name_en": "Pasta Courses",
+      "items": [
+        { "name": "Rigatoni alla Carbonara ★", "desc_it": "Il nostro piatto signature — guanciale, uovo, pecorino", "desc_en": "Our signature dish — guanciale, egg, pecorino", "price": "€ —" },
+        { "name": "Rigatoni all'Amatriciana", "desc_it": "Guanciale, pomodoro San Marzano, pecorino", "desc_en": "Guanciale, San Marzano tomato, pecorino", "price": "€ —" },
+        { "name": "Tonnarelli Cacio e Pepe", "desc_it": "Pecorino romano e pepe nero macinato al momento", "desc_en": "Pecorino romano and freshly ground black pepper", "price": "€ —" },
+        { "name": "Rigatoni con la Coda", "desc_it": "Alla vaccinara — ricetta tradizionale del quinto quarto", "desc_en": "Vaccinara style — traditional fifth quarter recipe", "price": "€ —" },
+        { "name": "Rigatoni con Sugo di Pajata", "desc_it": "", "desc_en": "", "price": "€ —" },
+        { "name": "Gnocchi del Giovedì", "desc_it": "Disponibili solo il giovedì — come vuole la tradizione", "desc_en": "Available Thursdays only — as tradition demands", "price": "€ —" },
+        { "name": "Pasta alla Gricia", "desc_it": "Guanciale e pecorino — la madre dell'amatriciana", "desc_en": "Guanciale and pecorino — the mother of amatriciana", "price": "€ —" }
+      ]
+    },
+    {
+      "id": "secondi",
+      "name_it": "Secondi Piatti",
+      "name_en": "Main Courses",
+      "items": [
+        { "name": "Pajata", "desc_it": "Il quinto quarto nella sua espressione più autentica", "desc_en": "The fifth quarter at its most authentic", "price": "€ —" },
+        { "name": "Polpette al Sugo", "desc_it": "", "desc_en": "Meatballs in Tomato Sauce", "price": "€ —" },
+        { "name": "Pollo alla Cacciatora", "desc_it": "Pollo rustico con pomodoro, olive e rosmarino", "desc_en": "Rustic chicken with tomato, olives and rosemary", "price": "€ —" },
+        { "name": "Abbacchio al Forno con Patate", "desc_it": "", "desc_en": "Roasted Lamb with Potatoes", "price": "€ —" },
+        { "name": "Saltimbocca alla Romana", "desc_it": "Vitella, prosciutto crudo e salvia", "desc_en": "Veal, prosciutto and sage", "price": "€ —" },
+        { "name": "Vitella Porchettata", "desc_it": "", "desc_en": "Porchetta-Style Veal", "price": "€ —" },
+        { "name": "Straccetti con Rucola", "desc_it": "", "desc_en": "Sliced Beef with Arugula", "price": "€ —" },
+        { "name": "Trippa alla Romana", "desc_it": "Con pomodoro, mentuccia e pecorino", "desc_en": "With tomato, wild mint and pecorino", "price": "€ —" },
+        { "name": "Coratella", "desc_it": "Frattaglie d'agnello saltate — tradizione del quinto quarto", "desc_en": "Sautéed lamb offal — fifth quarter tradition", "price": "€ —" }
+      ]
+    },
+    {
+      "id": "contorni",
+      "name_it": "Contorni",
+      "name_en": "Sides",
+      "items": [
+        { "name": "Patate al Forno", "desc_it": "", "desc_en": "Roasted Potatoes", "price": "€ —" },
+        { "name": "Cicoria Ripassata", "desc_it": "", "desc_en": "Sautéed Chicory", "price": "€ —" },
+        { "name": "Puntarelle", "desc_it": "", "desc_en": "", "price": "€ —" },
+        { "name": "Insalata Verde", "desc_it": "", "desc_en": "Green Salad", "price": "€ —" }
+      ]
+    },
+    {
+      "id": "dolci",
+      "name_it": "Dolci",
+      "name_en": "Desserts",
+      "items": [
+        { "name": "Tiramisù al Bicchiere", "desc_it": "Fatto in casa", "desc_en": "Homemade", "price": "€ —" },
+        { "name": "Torta della Nonna", "desc_it": "", "desc_en": "", "price": "€ —" },
+        { "name": "Panna Cotta", "desc_it": "", "desc_en": "", "price": "€ —" },
+        { "name": "Crème Caramel", "desc_it": "", "desc_en": "", "price": "€ —" }
+      ]
+    }
+  ]
+}

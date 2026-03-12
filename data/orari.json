@@ -1,0 +1,11 @@
+{
+  "schedule": [
+    { "day_it": "Lunedì", "day_en": "Monday", "hours": "12:30 – 15:00 | 19:00 – 23:00" },
+    { "day_it": "Martedì", "day_en": "Tuesday", "hours": "12:30 – 15:00 | 19:00 – 23:00" },
+    { "day_it": "Mercoledì", "day_en": "Wednesday", "hours": "12:30 – 15:00 | 19:00 – 23:00" },
+    { "day_it": "Giovedì", "day_en": "Thursday", "hours": "12:30 – 15:00 | 19:30 – 23:00" },
+    { "day_it": "Venerdì", "day_en": "Friday", "hours": "12:30 – 15:00 | 19:00 – 23:00" },
+    { "day_it": "Sabato", "day_en": "Saturday", "hours": "12:30 – 15:00 | 19:00 – 23:00" },
+    { "day_it": "Domenica", "day_en": "Sunday", "hours": "12:30 – 15:30 | Cena chiusa / Dinner closed" }
+  ]
+}
